@@ -1,6 +1,7 @@
 # Write a speak_to_grandma method.
-def whisper(phrase)
-  puts "I love you grandma"
+def speak_to_grandma(phrase)
+  if (phrase.lowercase)
+    return "I can"
 end
 # Whatever you say to grandma, she should respond with
 # HUH?! SPEAK UP, SONNY!
